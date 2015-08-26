@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: bd17b95eca90b064e834dc6a0af7c12c
+timeCreated: 1438022375
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: school-buttons_0
+    21300002: school-buttons_1
+    21300004: school-buttons_2
+    21300006: school-buttons_3
+    21300008: school-buttons_4
+    21300010: school-buttons_5
+    21300012: school-buttons_6
+    21300014: school-buttons_7
+    21300016: school-buttons_8
+    21300018: school-buttons_9
+    21300020: school-buttons_10
+    21300022: school-buttons_11
+    21300024: school-buttons_12
+    21300026: school-buttons_13
+    21300028: school-buttons_14
+    21300030: school-buttons_15
+    21300032: school-buttons_16
+    21300034: school-buttons_17
+    21300036: school-buttons_18
+    21300038: school-buttons_19
+    21300040: school-buttons_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: school-buttons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2254
+        width: 456
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1997
+        width: 459
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_2
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1997
+        width: 459
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2018
+        width: 456
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1778
+        width: 456
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1495
+        width: 459
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_6
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1495
+        width: 459
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1535
+        width: 456
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1299
+        width: 456
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_9
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 996
+        width: 459
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_10
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 996
+        width: 459
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1060
+        width: 456
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 805
+        width: 456
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_13
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 499
+        width: 459
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_14
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 499
+        width: 459
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 456
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 456
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_17
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 257
+        width: 457
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_18
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 0
+        width: 459
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 456
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: school-buttons_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 20
+        width: 457
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
