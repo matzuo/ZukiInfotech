@@ -29,12 +29,11 @@ public class Timer : MonoBehaviour
             if (points < 20)
             {
                 //PARTIAL LOAD LEVEL SCENE
-                Application.LoadLevel("createjointeam");
+                Application.LoadLevel("missionFailed");
             }
             else
             {
-                Debug.Log("congrats");
-                Debug.Log(points);
+                Application.LoadLevel("missionFailed");
             }
         }
         else
