@@ -17,6 +17,11 @@ public class residentSend : Photon.MonoBehaviour
     public Button dopen;
     public Button firealarm;
     public Button exit;
+    public Button keepcalm;
+    public Button covermouth;
+    public Button formsingle;
+    public Button report;
+    public Button evac;
     int points = 0;
     public Text displayTask;
     string text;
@@ -45,7 +50,21 @@ public class residentSend : Photon.MonoBehaviour
             case 5: this.displayTask.text = "Use Fire Exit";
                 this.situation.text = "Use it to exit the premises accordingly.";
                 break;
-
+            case 6: this.displayTask.text = "Keep Calm And Listen";
+                this.situation.text = "Don't panic and always be attentive.";
+                break;
+            case 7: this.displayTask.text = "Cover Mouth With Wet Towel";
+                this.situation.text = "This is to protect your lungs from the smoke.";
+                break;
+            case 8: this.displayTask.text = "Form A Single File";
+                this.situation.text = "Form a single line to control the flow of evacuation.";
+                break;
+            case 9: this.displayTask.text = "Report Missing Person";
+                this.situation.text = "If someone is missing after evacuation, report to authorities immediately.";
+                break;
+            case 10: this.displayTask.text = "Evacuate";
+                this.situation.text = "Find a temporary relocation place while waiting for the fire to die down.";
+                break;
             default: break;
         }
 
@@ -70,7 +89,21 @@ public class residentSend : Photon.MonoBehaviour
             case 5: this.displayTask.text = "Use Fire Exit";
                 this.situation.text = "Use it to exit the premises accordingly.";
                 break;
-
+            case 6: this.displayTask.text = "Keep Calm And Listen";
+                this.situation.text = "Don't panic and always be attentive.";
+                break;
+            case 7: this.displayTask.text = "Cover Mouth With Wet Towel";
+                this.situation.text = "This is to protect your lungs from the smoke.";
+                break;
+            case 8: this.displayTask.text = "Form A Single File";
+                this.situation.text = "Form a single line to control the flow of evacuation.";
+                break;
+            case 9: this.displayTask.text = "Report Missing Person";
+                this.situation.text = "If someone is missing after evacuation, report to authorities immediately.";
+                break;
+            case 10: this.displayTask.text = "Evacuate";
+                this.situation.text = "Find a temporary relocation place while waiting for the fire to die down.";
+                break;
             default: break;
 
         }
@@ -123,7 +156,47 @@ public class residentSend : Photon.MonoBehaviour
         this.photonView.RPC("Chat", PhotonTargets.All, this.inputLine);
         compare(inputLine);
     }
-    
+
+    public void kpcalm()
+    {
+        this.inputLine = keepcalm.name;
+        Debug.Log(this.inputLine);
+        this.photonView.RPC("Chat", PhotonTargets.All, this.inputLine);
+        compare(inputLine);
+    }
+
+    public void cmouth()
+    {
+        this.inputLine = covermouth.name;
+        Debug.Log(this.inputLine);
+        this.photonView.RPC("Chat", PhotonTargets.All, this.inputLine);
+        compare(inputLine);
+    }
+
+    public void form()
+    {
+        this.inputLine = formsingle.name;
+        Debug.Log(this.inputLine);
+        this.photonView.RPC("Chat", PhotonTargets.All, this.inputLine);
+        compare(inputLine);
+    }
+
+    public void rep()
+    {
+        this.inputLine = report.name;
+        Debug.Log(this.inputLine);
+        this.photonView.RPC("Chat", PhotonTargets.All, this.inputLine);
+        compare(inputLine);
+    }
+
+    public void ev()
+    {
+        this.inputLine = evac.name;
+        Debug.Log(this.inputLine);
+        this.photonView.RPC("Chat", PhotonTargets.All, this.inputLine);
+        compare(inputLine);
+    }
+
     void compare(string click)
     {
         text = this.displayTask.text;
@@ -134,12 +207,16 @@ public class residentSend : Photon.MonoBehaviour
             points = points + 1;
             Start();
         }
+        else
+        {
+
+        }
 
     }
 
     int random()
     {
-        return Random.Range(1, 6);
+        return Random.Range(1, 11);
 
     }
 

@@ -101,8 +101,7 @@ public class networkconnect : MonoBehaviour
     }
     public void OnJoinedRoom()
     {
-       
-        PhotonNetwork.LoadLevel(PhotonNetwork.room.customProperties["propertyName"].ToString());
+        PhotonNetwork.LoadLevel("residential2");
     }
     public void OnPhotonCreateRoomFailed()
     {
